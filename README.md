@@ -9,7 +9,7 @@ We bring back the warm, analog sound of the 70s and early 80s, blending it with 
 ## 📺 Find us on YouTube
 Our primary dock on the web. This is where you will find our latest releases, milestones, and audiophile experiments:
 
-🎵 **[Click here to visit the official Evvivora YouTube Channel]([DEIN_YOUTUBE_LINK](https://www.youtube.com/@evvivora))** *(Please replace DEIN_YOUTUBE_LINK with your actual channel link!)*
+🎵 **[Click here to visit the official Evvivora YouTube Channel](https://www.youtube.com/@evvivora)** *(Please replace DEIN_YOUTUBE_LINK with your actual channel link!)*
 
 ### 🔥 Current Playlist Highlights:
 * **B55-Vintage** – A deep, reverent tribute to the pioneers of the analog era and the smooth, mild synth-wave tones of a bygone epoch.
