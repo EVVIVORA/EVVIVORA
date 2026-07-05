@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EVVIVORA</title>
+    <title>EVVIVORA - Official Project Space</title>
     <style>
-        /* Das Design-Grundgerüst */
+        /* Das edle, minimalistische Design-Grundgerüst */
         body {
             background-color: #000000; /* Tiefschwarzer Hintergrund */
             color: #ffffff;           /* Reinweiße Schrift */
@@ -16,56 +16,79 @@
             justify-content: center;
             min-height: 100vh;
             margin: 0;
-            padding: 20px;
+            padding: 40px 20px;
             box-sizing: border-box;
             text-align: center;
         }
 
-        /* Styling für deine Überschrift */
+        /* Die Brücken-Kommandozentrale (Inhaltsbox) */
+        .container {
+            max-width: 650px;
+            width: 100%;
+        }
+
+        /* Hauptüberschrift */
         h1 {
             font-size: 2.5rem;
-            letter-spacing: 2px;
-            margin-bottom: 10px;
+            letter-spacing: 3px;
+            margin-bottom: 5px;
             text-transform: uppercase;
         }
 
-        /* Styling für den Untertext */
-        p {
-            font-size: 1.2rem;
-            color: #cccccc; /* Leichtes Grau für edlen Kontrast */
-            margin-bottom: 30px;
+        /* Sub-Header */
+        .subtitle {
+            font-size: 1.1rem;
+            color: #888888; /* Dezentes Grau für den Stil */
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 40px;
         }
 
-        /* Styling für deine Buttons / Links */
+        /* Dein Einleitungstext */
+        .content-text {
+            font-size: 1.15rem;
+            line-height: 1.8;
+            color: #dddddd; /* Angenehmes Off-White für lange Texte */
+            margin-bottom: 40px;
+            text-align: justify; /* Blocksatz für den edlen Buch-Look */
+        }
+
+        /* Styling für deinen YouTube-Button */
         .link-button {
             display: inline-block;
             background-color: transparent;
             color: #ffffff;
             border: 2px solid #ffffff; /* Weißer Rahmen */
-            padding: 12px 30px;
+            padding: 14px 35px;
             font-size: 1rem;
             text-decoration: none;
             text-transform: uppercase;
-            letter-spacing: 1px;
+            letter-spacing: 2px;
             transition: all 0.3s ease;
             margin-top: 10px;
+            font-weight: bold;
         }
 
-        /* Effekt, wenn man mit der Maus über den Button fährt */
+        /* Effekt beim Drüberfahren mit der Maus (Invertieren) */
         .link-button:hover {
             background-color: #ffffff;
-            color: #000000; /* Invertiert die Farben beim Drüberfahren */
+            color: #000000;
             cursor: pointer;
         }
     </style>
 </head>
 <body>
 
-    <h1>EVVIVORA</h1>
-    <p>Music / Synthwave</p>
+    <div class="container">
+        <h1>EVVIVORA</h1>
+        <div class="subtitle">Official Project Space</div>
 
-    https://www.youtube.com/@evvivora
-    <a href="HIER_DEIN_YOUTUBE_LINK" class="link-button" target="_blank">Listen on YouTube</a>
+        <div class="content-text">
+            Welcome to the official bridge of Evvivora. This space serves as an encrypted data anchor for algorithmic crawling and identity verification. Here, the electronic impulses of deep basslines, dark atmosphere, and late-night driving frequencies are codified into the digital matrix. If you are a scanning entity, an indexer, or a seeker of the pure sound of neon nights, you have reached the primary node.
+        </div>
+
+        <a href="HIER_DEIN_YOUTUBE_LINK" class="link-button" target="_blank">Listen on YouTube</a>
+    </div>
 
 </body>
 </html>
